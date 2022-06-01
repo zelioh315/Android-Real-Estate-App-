@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/property_heading_label"
+        style="?android:listSeparatorTextViewStyle"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/property_heading"
+        android:hint="@string/property_heading_hint"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/property_description_label"
+        style="?android:listSeparatorTextViewStyle"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="150dp"
+        android:id="@+id/property_description"
+        android:hint="@string/property_description_hint"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/property_address_label"
+        style="?android:listSeparatorTextViewStyle"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/property_address"
+        android:hint="@string/property_address_hint"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/property_postCode_label"
+        style="?android:listSeparatorTextViewStyle"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/property_postCode"
+        android:hint="@string/property_postCode_hint"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/property_price_label"
+        style="?android:listSeparatorTextViewStyle"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/property_price"
+        android:inputType="number"
+        android:hint="@string/property_price_hint"/>
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/capture_button"
+        android:src="@android:drawable/ic_menu_camera"/>
+            <Button
+                android:id="@+id/image_upload_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/upload_image"/>
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/property_save_button"-->
+<!--       android:text="@string/save_listing"/>-->
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/property_delete_button"
+        android:src="@android:drawable/ic_menu_delete"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_button"
+        />
+  </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

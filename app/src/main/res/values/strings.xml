@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Chiatiah</string>
+    <string name="property_heading_label">Property Heading</string>
+    <string name="property_description_label">Property Description</string>
+    <string name="property_heading_hint">Enter property Heading</string>
+    <string name="property_description_hint">Please describe your property here </string>
+    <string name="property_price_hint">Enter Price of Property  </string>
+    <string name="share_via_sms">Share via Email </string>
+    <string name="share_via_socialMedia">Share via social media</string>
+    <string name="edit_property">Edit</string>
+    <string name="save_listing">Save Listing</string>
+    <string name="property_report">Hey checkout this %1$s located in %2$s. Available for only  £%3$s PCM \n \n \n PROPERTY DESCRIPTION \n \n %4$s </string>
+    <string name="search_title">Search for properties</string>
+    <string name="search_hint">Enter postcode or bedrooms </string>
+    <string name="property_price_label">Price of Property per calendar month</string>
+    <string name="property_postCode_label">Post Code of Property</string>
+    <string name="property_address_label">Address of Property</string>
+    <string name="property_postCode_hint">Enter property Post Code</string>
+    <string name="property_address_hint">Enter address of property</string>
+    <string name="new_listing">Add a Property</string>
+    <string name="send_report">Send crime report via</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="delete_multiple">Delete Selected Properties</string>
+</resources>

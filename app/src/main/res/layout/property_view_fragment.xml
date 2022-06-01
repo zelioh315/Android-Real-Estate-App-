@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerInside"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/property_view_image"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/property_view_price"
+            android:padding="4dp"
+            android:textStyle="bold"
+            tools:text="Property Price"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/property_view_heading"
+            android:textStyle="bold"
+            android:layout_toLeftOf="@+id/property_view_price"
+            tools:text="Property Heading"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/property_view_description"
+        tools:text="Property Description"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/property_view_date"
+        tools:text="Listing date"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/property_view_address"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/property_share_via_sms"
+        android:text="@string/share_via_sms"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/property_share_via_social_media"
+        android:text="@string/share_via_socialMedia"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="@string/edit_property"
+        android:background="#FF0000"
+        android:id="@+id/edit_property"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
